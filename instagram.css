@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    
+}
+.Left {
+    width: 350px;   
+    height:580px;
+    float:left;
+    margin-top:10px ;
+}
+
+.celular1 img {
+    position:absolute;
+    float: left;
+}
+.celular2 img {
+    position:absolute;
+    float: left;
+    margin-left:286px;
+    margin-top:93px;
+}
+.right {
+    width: 400px;   
+    height:570px;
+    float: right; 
+    margin-right:270px;
+    margin-top:10px ;
+}
+.right .perimeter {
+    width:380px;
+    height:300px;
+    border: 1px solid rgb(212, 206, 206);
+    ;
+    margin-top:88px;
+   
+}
+.soblogo {
+   position: absolute;
+   padding-top:20px;
+   padding-left:80px;
+}
+.profile {
+    width:90px;
+    height:90px;
+    padding-left: 130px;
+    padding-top: 100px;
+}
+.usuario {
+    width:90px;
+    height:90px;
+    border: 1px solid rgb(212, 206, 206);
+    border-radius:45px;
+}
+.logar {
+    margin: auto;
+    margin-top:20px;
+    width:200px;
+    height:30px;
+    background-color:#1075e0;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-family: Sans-serif;
+    font-size:15px ;
+    border: 1px solid rgb(212, 206, 206);
+    border-radius:5px;
+}
+.remove {
+    margin: auto;
+    width:200px;
+    height:30px;
+    color:#1075e0;
+    text-align: center;
+    line-height: 30px;
+    font-family: Sans-serif;
+    font-size:13px;
+    padding-top:10px;
+}
+.busca {
+    width:380px;
+    height:90px;
+    border: 1px solid rgb(212, 206, 206);
+    margin-top:30px;
+}
+.textto1 {
+    margin: auto;
+    width: 300px;
+    color: rgb(126, 116, 116);
+    font-size: 15px;
+    font-family: Sans-serif;
+    text-align:center;
+    margin-top:20px;  
+}
+.textto2 {
+    margin: auto;
+    width: 300px;
+    color:#1075e0;
+    font-size: 15px;
+    font-family: Sans-serif;
+    text-align:center;
+    margin-top: 5px;
+
+}
+.apps {
+    text-align: center;
+    color: rgb(78, 70, 70);
+    padding:20px;
+}
+.logoimg1 {
+    float: left;
+    padding-left: 30px;
+    padding-top:25px;
+}
+.logoimg2 {
+    float: left;
+    padding-left: 30px;
+    padding-top:25px;
+   
+}
+@media screen and (min-width:800px) and (max-width:1078px) {
+    .Left {
+       display: none;
+
+    }
+   
+        
+    
+}
